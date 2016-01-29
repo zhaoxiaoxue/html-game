@@ -1,0 +1,45 @@
+html,body{
+	width: 100%;height: 100%;
+	overflow: hidden;
+	background: url('../images/b1.jpg') no-repeat right bottom;
+}
+.plane{
+	width: 400px;
+	height: 390px;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+	background:url('../images/t1.png');
+	cursor: pointer;
+}
+.plane .start{
+	font-size: 30px;
+	color: #ed24da;
+	width: 400px;
+	height: 50px;
+	line-height: 650px;
+	text-align: center;
+	float: left;
+	/*border:1px solid black;*/
+}
+.plane .die{
+	width: 200px;
+	height: 50px;
+	line-height: 650px;
+	text-align: center;
+	float: left;
+	display:none;
+	/*border:1px solid black;*/
+}
+.plane .sore{
+	width: 200px;
+	height: 50px;
+	line-height: 650px;
+	text-align: center;
+	float: left;
+	display:none;
+	/*border:1px solid black;*/
+
+}
